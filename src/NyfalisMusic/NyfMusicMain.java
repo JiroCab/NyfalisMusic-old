@@ -13,7 +13,6 @@ import mindustry.mod.Mod;
 import mindustry.ui.Styles;
 import mindustry.ui.dialogs.SettingsMenuDialog;
 
-import static arc.Core.settings;
 import static mindustry.Vars.*;
 
 public class NyfMusicMain extends Mod {
