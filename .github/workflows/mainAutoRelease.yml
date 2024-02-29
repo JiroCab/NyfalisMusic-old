@@ -44,7 +44,7 @@ jobs:
       - name: Build mod jar
         run: ./gradlew deploy
 
-      - name: Release rename
+      - name: Release jar to release version
         run:
           mv build/libs/${{ github.event.repository.name }}.jar build/libs/${{ github.event.repository.name }}-${{ steps.version.outputs.prop }}.jar
 
